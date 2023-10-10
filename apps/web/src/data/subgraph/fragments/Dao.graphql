@@ -1,0 +1,10 @@
+fragment DAO on DAO {
+  name
+  tokenAddress
+  contractImage
+  description
+  proposalCount
+  totalAuctionSales
+  totalSupply
+  auctionAddress
+}

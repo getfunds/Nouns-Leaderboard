@@ -1,0 +1,17 @@
+query DaoList(
+  $orderBy: DAO_orderBy
+  $orderDirection: OrderDirection
+  $where: DAO_filter
+  $skip: Int
+  $first: Int
+) {
+  daos (
+    where: $where
+    orderBy: $orderBy
+    orderDirection: $orderDirection
+    first: $first
+    skip: $skip
+  ) {
+    ...DAO
+  }
+}

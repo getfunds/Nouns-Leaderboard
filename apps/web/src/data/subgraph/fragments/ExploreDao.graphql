@@ -1,0 +1,25 @@
+fragment ExploreDao on Auction {
+  dao {
+    id
+    name
+    tokenAddress
+    contractImage
+    description
+    ownerCount
+    proposalCount
+    totalAuctionSales
+    totalSupply
+    symbol
+    projectURI
+  }
+  endTime
+  highestBid {
+    amount
+    bidder
+  }
+  token {
+    name
+    image
+    tokenId
+  }
+}
