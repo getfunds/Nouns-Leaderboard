@@ -1,5 +1,4 @@
-import { Box, Flex, Text, vars } from '@zoralabs/zord'
-import Link from 'next/link'
+import { Box, Flex } from '@zoralabs/zord'
 import { useRouter } from 'next/router'
 import React from 'react'
 import { useAccount } from 'wagmi'

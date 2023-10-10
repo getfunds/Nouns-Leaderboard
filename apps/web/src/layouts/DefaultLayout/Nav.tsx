@@ -1,4 +1,4 @@
-import { Box, Flex, Label, Stack, atoms } from '@zoralabs/zord'
+import {  Flex, Stack, atoms } from '@zoralabs/zord'
 import Link from 'next/link'
 import React from 'react'
 
@@ -10,7 +10,7 @@ import { useScrollDirection } from 'src/hooks/useScrollDirection'
 
 import NogglesLogo from '../assets/builder-framed.svg'
 import TestnetLogo from '../assets/testnet.svg'
-import { NavContainer, NavWrapper, navMenuItem } from './Nav.styles.css'
+import { NavContainer, NavWrapper } from './Nav.styles.css'
 import { NavMenu } from './NavMenu'
 
 export const Nav = () => {

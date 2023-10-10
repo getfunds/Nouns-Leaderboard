@@ -1,5 +1,4 @@
 import * as Sentry from '@sentry/nextjs'
-import axios from 'axios'
 
 import { SDK } from 'src/data/subgraph/client'
 import { CHAIN_ID } from 'src/typings'

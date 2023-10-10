@@ -27,7 +27,6 @@ import { CreateDaoButton } from './CreateDaoButton'
 import {
   activeNavAvatar,
   chainPopUpButton,
-  disconnectButton,
   myDaosWrapper,
   navButton,
   navMenuBurger,
